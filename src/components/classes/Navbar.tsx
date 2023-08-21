@@ -31,7 +31,7 @@ export default class Navbar extends Component<IProps, INav> {
     return (
       <div className="flex justify-between items-center">
         <Link to="/" className="flex justify-center gap-2 w-36 md:w-52 p-4">
-          <img src={logo} alt="" className="scale-150 mb-5 cursor-pointer  w-16" />
+          <img src={logo} alt="" className=" mb-5 cursor-pointer  w-16" />
           <h1 className="w-full h-24 py-2 justify-center text-3xl font-bold text-primary tracking-wider text hover:drop-shadow-glow">
             JAY
             METRO
@@ -41,15 +41,17 @@ export default class Navbar extends Component<IProps, INav> {
         <div className="my-auto ml-auto md:inline">
           <ul className="hidden md:flex gap-6 mr-6 text-2xl font-bold">
             <li className="my-auto hover:rotate-6 hover:text-3xl hover:drop-shadow-glow text-white duration-150">
-              <Link to="/links">Links</Link>
+              <a href='https://linktr.ee/jaymetro' rel="noopener noreferrer" target="_blank">
+                Links
+              </a>
             </li>
             <li className="my-auto fill text-white hover:rotate-6 hover:text-3xl hover:drop-shadow-glow duration-150">
-              <Link to="/merch">Merch</Link>
+            <a href='https://instagram.com/jaymetr0?igshid=OGQ5ZDc2ODk2ZA==
+' rel="noopener noreferrer" target="_blank">
+                Metro Blog
+              </a>
             </li>
-            <li className="my-auto fill text-white hover:rotate-6 hover:text-3xl hover:drop-shadow-glow duration-150">
-              <Link to="/blog">Metro Blog</Link>
-            </li>
-            <Link to="/signin">
+            <Link to="/">
                 <li className="my-auto cursor-pointer btn bg-primary text-white mt-1 hover:drop-shadow-glow">
                   Download Beats
                 </li>
@@ -86,8 +88,8 @@ export default class Navbar extends Component<IProps, INav> {
           <Link to="/" className="flex gap-2 w-36 md:w-52 p-4">
           <img src={logo} alt="" className="cursor-pointer my-auto w-16 p-2" />
           <h1 className="w-full h-24 py-2 justify-center text-3xl font-bold text-primary tracking-wider text">
-              GLOW
-              PROJECT
+              JAY
+              METRO
             </h1>
           </Link>
           

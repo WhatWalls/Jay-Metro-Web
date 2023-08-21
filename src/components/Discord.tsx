@@ -48,7 +48,7 @@ const Discord = () => {
           </div>
         
         </div>
-        <img src={Chillin} alt="" className="mx-auto w-full md:w3/5 max-h-[700px] lg:w-[25%] md:mt-20 mb-10 object-contain" />
+        <img src={Logo} alt="" className="mx-auto w-full md:w3/5 max-h-[700px] lg:w-[25%] md:mt-20 mb-10 object-contain" />
       </div>
     </div>
   )
