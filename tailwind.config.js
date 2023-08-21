@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'sm': { 'max': '700px' },
+        'sm': { 'max': '1600' },
         'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
         'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' }
       },
