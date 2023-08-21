@@ -35,9 +35,9 @@ const Hero = () => {
 
   console.log(ref)
   return (
-    <div className='text-white h-screen'>
+    <div className='text-white h-[calc(100dvh)]'>
 
-      <div className='max-w-[800px] mt-[-126px] text-center flex flex-col justify-center w-full h-screen  mx-auto'>
+      <div className='max-w-[800px] mt-[-126px] text-center flex flex-col justify-center w-full h-[calc(100dvh)]  mx-auto'>
         <p className='text-white font-bold text-2xl'>DO YOU LIKE GOOD MUSIC...</p>
           <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Listen to <br></br><span className='text-primary drop-shadow-glow'>JAY METRO</span></h1>
 

@@ -15,7 +15,7 @@ const Discord = () => {
 
   return (
     //@ts-ignore
-    <div className='bg-tertiary p-5 my-10 h-screen' ref={discRef}>
+    <div className='bg-tertiary p-5 my-10 h-[calc(100dvh)]' ref={discRef}>
       {/* @ts-ignore */}
       <div className='p-10 mx-20 mt-10 gap-16 md:mr-20 md:mt-0 flex flex-col-reverse items-center md:flex-row-reverse'>
         <div className='md:ml-10 text-center md:mt-[100px]'>

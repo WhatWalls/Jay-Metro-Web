@@ -27,7 +27,7 @@ const Info = () => {
 
   return (
   
-  <div className='bg-contrast h-[250vh] md:h-screen' ref={heroRef}>
+  <div className='bg-contrast h-fit md:h-screen' ref={heroRef}>
     {/* @ts-ignore */}
     <div className='flex flex-col justify-center items-center'>
     <h1 className='md:text-5xl text-3xl  text-center p-8 md:p-14 '>Jay  <span className='text-primary drop-shadow-xl'>METRO</span>  Beats</h1>
