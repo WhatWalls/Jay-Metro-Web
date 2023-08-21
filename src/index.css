@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+.btn {
+    @apply drop-shadow-lg py-3 px-6 font-semibold rounded-lg transition duration-300 btn-hover cursor-pointer;
+}
+
+body {
+    background-color: #000300;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(180deg, #FFCB5E, #ffd375);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-hover {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-hover:hover {
+    transform: translateY(-5px);
+}
+
+.hide-down-arrow {
+    display: none;
+}
