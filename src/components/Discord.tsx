@@ -41,7 +41,7 @@ const Discord = () => {
               <a href='https://soundcloud.com/user-409842486-509252939
 ' rel="noopener noreferrer" target="_blank">
                   <button className="flex items-center justify-center md:text-2xl gap-3 btn w-[200px] font-bold bg-white text-orange-400 rounded-lg shadow-lg md:mt-10 text-1xl ">
-                    <PiSoundcloudLogoFill size={30} className='mt-1 scale-[3]'/>
+                    <PiSoundcloudLogoFill size={30} className='mt-1 scale-[1] md:scale-[3]'/>
                     SoundCloud
                   </button>
               </a>

@@ -51,11 +51,11 @@ export default class Navbar extends Component<IProps, INav> {
                 Metro Blog
               </a>
             </li>
-            <Link to="/">
+            <a href="https://www.youtube.com/channel/UC-nnKjUvYAHWzE4m_2R4N0g" rel="noopener noreferrer" target="_blank">
                 <li className="my-auto cursor-pointer btn bg-primary text-white mt-1 hover:drop-shadow-glow">
                   Download Beats
                 </li>
-              </Link>
+              </a>
           </ul>
         </div>
   
@@ -104,11 +104,11 @@ export default class Navbar extends Component<IProps, INav> {
               <Link to="/opportunities">Metro Blog</Link>
             </li>
                    
-          <Link to="/signin">
-                <li className="mt-5 text-center cursor-pointer btn bg-primary text-white shadow-lg">
+            <a href="https://www.youtube.com/channel/UC-nnKjUvYAHWzE4m_2R4N0g" rel="noopener noreferrer" target="_blank">
+                <li className="my-auto cursor-pointer btn bg-primary text-white mt-1 hover:drop-shadow-glow">
                   Download Beats
                 </li>
-          </Link>
+              </a>
           </ul>
           
         </div>
