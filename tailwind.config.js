@@ -4,6 +4,10 @@ module.exports = {
   enabled: true,
   theme: {
     extend: {
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' }
+      },
       dropShadow: {
         glow: [
           "0 0px 20px rgba(255,255, 255, 0.35)",
