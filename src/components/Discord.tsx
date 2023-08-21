@@ -3,7 +3,6 @@ import { useRefContext } from '../context/RefContext';
 import InfoGraphic from '../images/dashboard.png'
 import Logo from '../images/logo.png'
 import Chillin from '../images/chillin.png'
-import Typed from 'react-typed'
 import { Link } from 'react-router-dom';
 import { PiSoundcloudLogoFill } from 'react-icons/pi'
 import { MdNavigateNext } from 'react-icons/md';
@@ -23,14 +22,9 @@ const Discord = () => {
         <p className='text-primary text-1xl font-bold'>JAYMETRO.COM</p>
         <h1 className='md:text-5xl sm:tesxt-3xl text-2xl font-bold py-2 text-white'>Support Metro</h1>
         <div className='flex justify-center items-center'>
-          <Typed
-          className='md:text-5xl sm:text-3xl text-sm font-bold md:pl-4 pl-2 text-primary'
-            strings={['Spotify', 'Apple Music', 'Soundcloud']}
-            typeSpeed={120}
-            backSpeed={140}
-            
-            loop
-          />
+          <p className='md:text-5xl sm:text-3xl text-sm font-bold md:pl-4 pl-2 text-primary'>
+            All Music Platforms
+          </p>
         </div>
 
         <p className='text-white my-5 text-xl'>
