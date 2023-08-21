@@ -38,15 +38,15 @@ const Info = () => {
     </div>
     
 
-    <div className='justify-center items-center w-full  flex flex-col md:flex-row md:gap-14'>
-      <div className='bg-primary  mx-auto h-[400px]  md:h-[600px] my-20 w-[400px] rounded-xl shadow-xl flex flex-col'>
+    <div className='justify-center items-center w-full  flex sm:flex-col md:flex-row md:gap-14'>
+      <div className='bg-primary  sm:mx-auto sm:h-[400px]  md:h-[600px] my-20 w-[400px] rounded-xl shadow-xl flex flex-col'>
           <p className=' font-semibold text-xs mt-2 md:text-md  text-gray-500 text-center md:mt-5'>ALBUM DLX</p>
             <h1 className=' text-white justify-center text-3xl font-bold mt-1 text-center mx-16 '>
               NO ESCXPE 2
             </h1>
-            <p className='invisible md:visible font-semibold text-md text-white text-center'>Released: 8/4/23</p>
+            <p className='sm:invisible md:visible font-semibold text-md text-white text-center'>Released: 8/4/23</p>
         
-          <img src='https://media.discordapp.net/attachments/904850052177072169/1140514125756256276/58EBA3AD-8940-43F3-A623-28FEE7CD1BA7.png?width=671&height=671' className='scale-50 mt-[-100px] md:mt-0 md:scale-75 bg-white p-7 rounded-xl drop-shadow-lg' alt='/' ></img>
+          <img src='https://media.discordapp.net/attachments/904850052177072169/1140514125756256276/58EBA3AD-8940-43F3-A623-28FEE7CD1BA7.png?width=671&height=671' className='sm:scale-50 sm:mt-[-100px] md:mt-0 md:scale-75 bg-white p-7 rounded-xl drop-shadow-lg' alt='/' ></img>
           
           <div className="flex justify-center space-x-10 py-4">
               <a href='https://open.spotify.com/artist/3jkrQmA97PXfpwQtL40zNg?si=HPxZMJl9R6qPb_-cr3hvzA
@@ -64,7 +64,7 @@ const Info = () => {
           </div>
       </div>
 
-      <div className='bg-primary  mx-auto h-[400px]  md:h-[600px] my-20 w-[400px] rounded-xl drop-shadow-xl flex flex-col'>
+      <div className='bg-primary  sm:mx-auto sm:h-[400px]  md:h-[600px] my-20 w-[400px] rounded-xl shadow-xl flex flex-col'>
           <p className=' font-semibold text-xs mt-2 md:text-md  text-gray-500 text-center md:mt-5'>SINGLE</p>
             <h1 className=' text-white justify-center text-3xl font-bold mt-1 text-center mx-16 '>
               Spafe Travels
